@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BFB63D5A-3643-4030-BD3E-7E65137F0EE4}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Directory.Build.props = Directory.Build.props
+		compose.yaml = compose.yaml
+		aspnetapp.pfx = aspnetapp.pfx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F7AB648E-B60C-4B75-8779-F8EDEED8F631}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{8CD25009-978F-4BDB-A827-1EE71F53E411}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{61889E36-BE1B-4AEF-8B26-A31F0A993CBD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Events", "Events", "{58590A1C-0AA1-46F6-B815-2BB355EBE81C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evently.Api", "src\API\Evently.Api\Evently.Api.csproj", "{FDBFF694-7A1B-48C4-92DE-FF079C578D28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evently.Modules.Events.Api", "src\Modules\Events\Evently.Modules.Events.Api\Evently.Modules.Events.Api.csproj", "{9D798A20-34A0-4863-A651-B5BB575A0399}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8CD25009-978F-4BDB-A827-1EE71F53E411} = {F7AB648E-B60C-4B75-8779-F8EDEED8F631}
+		{61889E36-BE1B-4AEF-8B26-A31F0A993CBD} = {F7AB648E-B60C-4B75-8779-F8EDEED8F631}
+		{58590A1C-0AA1-46F6-B815-2BB355EBE81C} = {61889E36-BE1B-4AEF-8B26-A31F0A993CBD}
+		{FDBFF694-7A1B-48C4-92DE-FF079C578D28} = {8CD25009-978F-4BDB-A827-1EE71F53E411}
+		{9D798A20-34A0-4863-A651-B5BB575A0399} = {58590A1C-0AA1-46F6-B815-2BB355EBE81C}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDBFF694-7A1B-48C4-92DE-FF079C578D28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDBFF694-7A1B-48C4-92DE-FF079C578D28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDBFF694-7A1B-48C4-92DE-FF079C578D28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDBFF694-7A1B-48C4-92DE-FF079C578D28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D798A20-34A0-4863-A651-B5BB575A0399}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D798A20-34A0-4863-A651-B5BB575A0399}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D798A20-34A0-4863-A651-B5BB575A0399}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D798A20-34A0-4863-A651-B5BB575A0399}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
