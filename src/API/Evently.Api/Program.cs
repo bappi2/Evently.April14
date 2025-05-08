@@ -1,11 +1,10 @@
 using System.Net;
 using Evently.Api.Extensions;
-using Evently.Modules.Events.Api;
 
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 builder.WebHost.ConfigureKestrel(serverOptions =>
 {
-    serverOptions.ListenAnyIP(8082); // for HTTP
+    serverOptions.ListenAnyIP(8082); 
     serverOptions.ListenAnyIP(8083, listenOptions =>
     {
         listenOptions.UseHttps("/https/aspnetapp.pfx", "YourSecurePassword123");

@@ -1,7 +1,7 @@
 ﻿FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
 WORKDIR /app
-EXPOSE 8080
-EXPOSE 8081
+EXPOSE 8082
+EXPOSE 8083
 
 # Make sure the /https folder exists inside the container
 RUN mkdir /https
